@@ -7,14 +7,14 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid="rebirth", name="RebirthPhone", version="alpha")
+@Mod(modid="rebirth", name="RebirthMobile", version="alpha")
 public class Rebirth {
     public static final Logger LOGGER = LogManager.getLogger("Rebirth");
     @Mod.Instance
     public static Rebirth INSTANCE;
 
     public static void load() {
-        LOGGER.info("Loading Rebirth alpha for phone...");
+        LOGGER.info("Loading Rebirth alpha Mobile...");
         Managers.load();
         if (Gui.INSTANCE == null) {
             Gui.INSTANCE = new Gui();
