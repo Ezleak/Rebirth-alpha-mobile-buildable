@@ -1,6 +1,6 @@
 # Rebirth-alpha-mobile-buildable
 梅
-how make rebirth-alpha mobile support?
+how make rebirth-alpha mobile support?<br>
 step1 clone [https://github.com/KgDW/Rebirth-deobf-decomp-buildable](https://github.com/KgDW/Rebirth-deobf-decomp-buildable.git)<br>
 step2 open with idea<br>
 step3 remove Desktop module<br>
